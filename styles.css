@@ -1,3 +1,15 @@
-﻿body
-{	h1: 
+﻿body {
+		
+}
+
+@fontface {
+		font-family: bebasneueregular;
+		src: url("fonts/bebasneueregular.otf");
+
+		font-family: coolvetica;
+		src: url("fonts/coolvetica.ttf");
+}
+
+h1 {
+		font-family: "coolvetica";
 }
