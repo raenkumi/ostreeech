@@ -13,3 +13,8 @@
 h1 {
 		font-family: "coolvetica";
 }
+
+#textblock {
+		size: 90%;
+		word-wrap: break-word;
+}
