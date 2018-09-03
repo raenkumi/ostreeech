@@ -1,20 +1,20 @@
-﻿body {
-		
+﻿
+@font-face {
+	font-family: bebasneue;
+	src: url(/fonts/bebasneueregular.otf);
+	font-family: coolvetica;
+	src: url(/fonts/coolvetica.ttf);
 }
 
-@fontface {
-		font-family: bebasneueregular;
-		src: url("fonts/bebasneueregular.otf");
-
-		font-family: coolvetica;
-		src: url("fonts/coolvetica.ttf");
+#headercontainer {
+	display:inline-block;
 }
 
 h1 {
-		font-family: "coolvetica";
+	font-family: coolvetica;
 }
 
 #textblock {
-		size: 90%;
-		word-wrap: break-word;
+	size: 90%;
+	word-wrap: break-word;
 }
