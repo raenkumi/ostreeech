@@ -1,20 +1,36 @@
-﻿
-@font-face {
-	font-family: bebasneue;
-	src: url(/fonts/bebasneueregular.otf);
-	font-family: coolvetica;
-	src: url(/fonts/coolvetica.ttf);
+﻿/* CSS GERAL */
+
+li {
+	list-style: none;
 }
 
-#headercontainer {
+/* FONTES */
+
+@font-face {
+	font-family: 'bebasneue';
+	src: url("fonts/bebasneueregular.otf");
+}
+
+@font-face {
+	font-family: 'coolvetica';
+	src: url("fonts/coolvetica.ttf");
+}
+
+/* HEADER */
+
+.navlistitem {
 	display:inline-block;
 }
 
+/* CONTEÚDO */
+
 h1 {
-	font-family: coolvetica;
+	font-family: 'coolvetica';
 }
 
 #textblock {
 	size: 90%;
 	word-wrap: break-word;
 }
+
+/* RODAPÉ */
