@@ -80,7 +80,6 @@ label {
 	}
 }
 
-
 /* CONTEÚDO */
 
 .content {
@@ -101,6 +100,7 @@ label {
 }
 
 .textcontent {
+	margin: 30px 0px 0px 0px;
 	padding: 15px;
 	word-wrap: break-word;
 }
