@@ -1,14 +1,27 @@
 ﻿/* CSS GERAL */
 
+body {
+	margin: 0;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
 li {
 	list-style: none;
+}
+
+p {
+	font-family: 'roboto';
 }
 
 /* FONTES */
 
 @font-face {
-	font-family: 'bebasneue';
-	src: url("fonts/bebasneueregular.otf");
+	font-family: 'roboto';
+	src: url("fonts/roboto.woff");
 }
 
 @font-face {
@@ -18,19 +31,86 @@ li {
 
 /* HEADER */
 
+.header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 1.0)
+}
+
+.nav {
+	display: flex;
+	max-width: 900px;
+	height: 50px;
+	margin: auto;
+}
+
+.navlist {
+	margin: auto;
+	padding: 0px;
+}
+
 .navlistitem {
 	display:inline-block;
+	color: rgba(255, 255, 255, 1.0);
 }
+
+.navlistitem a{
+	display:inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: rgba(255, 255, 255, 1.0);
+	padding: 0px 10px;
+}
+
+@media screen and (max-width: 370px){
+	#index {
+		display: none;
+	}
+}
+
 
 /* CONTEÚDO */
 
-h1 {
-	font-family: 'coolvetica';
+.content {
+	padding: 50px 0px 0px 0px;
+	min-width: 300px;
+	max-width: 900px;
+	margin: auto;
 }
 
-#textblock {
-	size: 90%;
+.title {
+	text-align: center;
+}
+
+.backgroundimg{
+	max-width: 100%;
+}
+
+.title {
+	font-family: 'coolvetica';
+	font-size: 30px;
+}
+
+.textcontent {
+	padding: 15px;
 	word-wrap: break-word;
 }
 
 /* RODAPÉ */
+
+.footer{
+	width: 100%;
+	min-width: 300px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 1.0);
+	color: rgba(255, 255, 255, 1.0);
+}
+
+.footercontainer {
+	padding: 5px 5px 5px 15px;
+	max-width: 880px;
+	margin: auto;
+}
