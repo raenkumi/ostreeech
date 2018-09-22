@@ -1,16 +1,18 @@
 // SCRIP PARA O QUIZ //
 
-quizEntries(); {
-    var a = document.getElementsByname("a.incubacao").value;
-    var b = document.getElementsByname("b.corrnamea").value;
-    var c = document.getElementsByname("c.estomago").value;
-    var d = document.getElementsByname("d.origem").value;
-    var e = document.getElementsByname("e.ovo").value;
-    var f = document.getElementsByname("f.dentes").value;
-    var g = document.getElementsByname("g.altura").value;
-    var h = document.getElementsByname("h.peso").value;
-    var i = document.getElementsByname("i.ataque").value;
-    var j = document.getElementsByname("j.celta").value;
+// CÓDIGO NÃO TEM FUNÇÃO! //
+
+function quizEntries() {
+    var a = document.getElementsByTagName("a.incubacao").value;
+    var b = document.getElementsByTagName("b.corrnamea").value;
+    var c = document.getElementsByTagName("c.estomago").value;
+    var d = document.getElementsByTagName("d.origem").value;
+    var e = document.getElementsByTagName("e.ovo").value;
+    var f = document.getElementsByTagName("f.dentes").value;
+    var g = document.getElementsByTagName("g.altura").value;
+    var h = document.getElementsByTagName("h.peso").value;
+    var i = document.getElementsByTagName("i.ataque").value;
+    var j = document.getElementsByTagName("j.celta").value;
 
     console.log(a, b, c, d, e, f, g, h, i, j);
 }

@@ -13,6 +13,11 @@ p {
 	font-family: 'roboto';
 }
 
+label {
+	float: right;
+	font-style: italic;
+}
+
  table, td, th {
 	border: solid 1px rgba(0, 0, 0, 1.0);
 	border-collapse: collapse;
@@ -89,7 +94,6 @@ p {
 	text-align: center;
 	font-family: 'coolvetica';
 	font-size: 30px;
-
 }
 
 .backgroundimg{
@@ -99,6 +103,25 @@ p {
 .textcontent {
 	padding: 15px;
 	word-wrap: break-word;
+}
+
+span /*isso daqui é o parágrafo com css diferente que vocês pediram */ {
+	font-weight: bold;
+}
+
+.innerlink {
+	display: block;
+	margin: 10px 0px;
+	width: 100%;
+	border: solid 1px rgba(0, 0, 0, 1.0);
+}
+
+.innerlink h2, p {
+	margin: 15px;
+}
+
+.quizquestion {
+	margin: 25px 0px;
 }
 
 /* RODAPÉ */
@@ -115,4 +138,8 @@ p {
 	padding: 5px 5px 5px 15px;
 	max-width: 880px;
 	margin: auto;
+}
+
+.footercontainer p{
+	margin: 15px 0px;
 }

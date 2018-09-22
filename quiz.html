@@ -27,56 +27,55 @@
 				<label>"tá pronto pra testar seus conhecimentos, irmão?"</label>
 			</section>
 			<section class="textcontent">
-				<form onsubmit="return false">
-					<p>a. quantos tempo dura a incubação do ovo de avestruz?</p>
-						<input type="radio" name="a.incubacao" value="false">20 dias<br>
-						<input type="radio" name="a.incubacao" value="true">30 dias<br>
-						<input type="radio" name="a.incubacao" value="false">60 dias<br>
-					<p>b. até quantos km/h uma avestruz correndo pode chegar?</p>
+				<form name="quizz" onsubmit="return false">
+					<p class="quizquestion">a. quantos tempo dura a incubação do ovo de avestruz?</p>
+						<input type="radio" name="a-incubacao" value="false">20 dias<br>
+						<input type="radio" name="a-incubacao" value="true">30 dias<br>
+						<input type="radio" name="a-incubacao" value="false">60 dias<br>
+					<p class="quizquestion">b. até quantos km/h uma avestruz correndo pode chegar?</p>
 						<input type="radio" name="b.corrida" value="false">30 km/h<br>
 						<input type="radio" name="b.corrida" value="false">60 km/h<br>
 						<input type="radio" name="b.corrida" value="true">70 km/h<br>
-					<p>c. quantos estômagos tem um avestruz?</p>
+					<p class="quizquestion">c. quantos estômagos tem um avestruz?</p>
 						<input type="radio" name="c.estomago" value="true">3 estômagos<br>
 						<input type="radio" name="c.estomago" value="false">4 estômagos<br>
 						<input type="radio" name="c.estomago" value="false">2 estômagos<br>
-					<p>d. qual a origem continental das avestruzes?</p>
+					<p class="quizquestion">d. qual a origem continental das avestruzes?</p>
 						<input type="radio" name="d.origem" value="true">áfrica<br>
 						<input type="radio" name="d.origem" value="false">austrália<br>
 						<input type="radio" name="d.origem" value="false">leste europeu<br>
-					<p>e. quantos quilos pode pesar um ovo de avestruz?</p>
+					<p class="quizquestion">e. quantos quilos pode pesar um ovo de avestruz?</p>
 						<input type="radio" name="e.ovo" value="false">1kg<br>
 						<input type="radio" name="e.ovo" value="true">1,5kg<br>
 						<input type="radio" name="e.ovo" value="false">2kg<br>
-					<p>f. quantos dentes tem uma avestruz?</p>
+					<p class="quizquestion">f. quantos dentes tem uma avestruz?</p>
 						<input type="radio" name="f.dentes" value="false">30 dentes<br>
 						<input type="radio" name="f.dentes" value="false">80 dentes<br>
 						<input type="radio" name="f.dentes" value="true">nenhum dente<br>
-					<p>g. qual a altura média de uma avestruz?</p>
+					<p class="quizquestion">g. qual a altura média de uma avestruz?</p>
 						<input type="radio" name="g.altura" value="true">2,7 metros<br>
 						<input type="radio" name="g.altura" value="false">3 metros<br>
 						<input type="radio" name="g.altura" value="false">3,5 metros<br>
-					<p>h. qual o peso médio de uma avestruz?</p>
+					<p class="quizquestion">h. qual o peso médio de uma avestruz?</p>
 						<input type="radio" name="h.peso" value="true">160kg<br>
 						<input type="radio" name="h.peso" value="false">200kg<br>
 						<input type="radio" name="h.peso" value="false">100kg<br>
-					<p>i. qual o melhor jeito de escapar de um ataque de avestruz?</p>
+					<p class="quizquestion">i. qual o melhor jeito de escapar de um ataque de avestruz?</p>
 						<input type="radio" name="i.ataque" value="false">correr da avestruz<br>
 						<input type="radio" name="i.ataque" value="false">brigar com a avestruz<br>
 						<input type="radio" name="i.ataque" value="true">deitar no chão<br>
-					<p>j. uma avestruz e um carro pica, os dois a 80km/h, você acha que eles ficam um do lado do outro?</p>
+					<p class="quizquestion">j. uma avestruz e um carro pica, os dois a 80km/h, você acha que eles ficam um do lado do outro?</p>
 						<input type="radio" name="j.celta" value="false">sim! 80km é 80km, arrombado<br>
 						<input type="radio" name="j.celta" value="true">creio que não<br>
 						<input type="radio" name="j.celta" value="false">só fica se for um celta 2012<br>
-					<input type="submit" onclick="quizEntries()">
+					<input type="submit" class="quizquestion" value="CLICA AQUI PARA PROVAR QUE VOCÊ SABE TUDO SOBRE AVESTRUZES!" onclick="quizEntries()">
 				</form>
-				<p>você acertou </p>
 			</section>
 		</main>
 		<footer class="footer" id="footer">
 			<div class="footercontainer">
 				<p>Encontre mais sobre avestruzes em:</p>
-				<a href="https://www.nationalgeographicbrasil.com/" target="blank">National Geographic Brasil</a> | <a href="http://www.mundoanimal.vet.br/site/" target="blank">Mundo Animal</a>
+				<a href="https://www.nationalgeographicbrasil.com/" target="_blank">National Geographic Brasil</a> | <a href="http://www.mundoanimal.vet.br/site/" target="_blank">Mundo Animal</a>
 			</div>
 		</footer>
 	</body>
