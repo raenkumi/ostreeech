@@ -13,6 +13,13 @@ p {
 	font-family: 'roboto';
 }
 
+ table, td, th {
+	border: solid 1px rgba(0, 0, 0, 1.0);
+	border-collapse: collapse;
+	font-family: 'roboto';
+	padding: 5px;
+}
+
 /* FONTES */
 
 @font-face {
@@ -63,8 +70,8 @@ p {
 }
 
 @media screen and (max-width: 370px){
-	#index {
-		display: none;
+	.navlistitem a{
+		padding: 0px 2px;
 	}
 }
 
@@ -80,15 +87,13 @@ p {
 
 .title {
 	text-align: center;
+	font-family: 'coolvetica';
+	font-size: 30px;
+
 }
 
 .backgroundimg{
 	max-width: 100%;
-}
-
-.title {
-	font-family: 'coolvetica';
-	font-size: 30px;
 }
 
 .textcontent {
