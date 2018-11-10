@@ -159,6 +159,10 @@ h2 {
 	font-family: 'coolvetica';
 }
 
+.quizbox {
+	padding: 1px 0px 15px 15px;
+}
+
 .quizquestion {
 	margin: 25px 0px;
 }
@@ -171,6 +175,7 @@ h2 {
 .quizlabel input {
 	margin: 5px;
 }
+
 
 /* RODAPÉ */
 
