@@ -1,13 +1,7 @@
-﻿/* CSS GERAL */
-
-/* CSS RESET */
-
-* {
+﻿* {
 	margin: 0;
 	padding: 0;
 }
-
-/* END OF RESET */
 
 body {
 	margin: 0;
@@ -176,7 +170,6 @@ h2 {
 	margin: 5px;
 }
 
-
 /* RODAPÉ */
 
 .footer {
@@ -193,6 +186,6 @@ h2 {
 	margin: auto;
 }
 
-.footercontainer p{
+.footercontainer p {
 	margin: 15px 0px;
 }

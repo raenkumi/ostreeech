@@ -1,33 +1,5 @@
-// 2 - MUDANÇA DE COR QUANDO O MOUSE PASSA POR CIMA DE UM PARÁGRAFO
-function paragraphHighlight() {
-    let hover = document.getElementById("specialpara").style;
-    hover.color = "red";
-    hover.fontFamily = "Times New Roman"
-    hover.fontSize = "20px";
-    hover.margin = "7px 0px";
-}
-
-function paragraphUnhighlight() {
-    let unhover = document.getElementById("specialpara").style;
-    unhover.color = "black";
-    unhover.fontFamily = "Roboto"
-    unhover.fontSize = "16px";
-    unhover.margin = "20px 0px";
-}
-
-// 3 - ENFATIZAR A POSIÇÃO DO CURSOR
-function boxHighlight(number) {
-    let hover = document.getElementById("quizbox" + number).style;
-    hover.backgroundColor = "rgb(240, 240, 240)";
-}
-
-function boxUnhighlight(number) {
-    let unhover = document.getElementById("quizbox" + number).style;
-    unhover.backgroundColor = "white";
-}
-
-// 4 - TEXTO E IMAGEM QUE APARECEM DE ACORDO COM O DIA DA SEMANA, NO INDEX.HTML
-function imageDateDisplay() {
+// TEXTO E IMAGEM QUE APARECEM DE ACORDO COM O DIA DA SEMANA, NO INDEX.HTML
+const imageDateDisplay = () => {
     let today = new Date().getDay();
     switch (today) {
         case 0:
@@ -52,4 +24,73 @@ function imageDateDisplay() {
             document.getElementById("headerimg").src = "pics/running6.jpg";
             break;
         }
+}
+
+// SCRIPT PARA O QUIZ
+
+const quizEntries = () => {
+    let answers = [
+        [
+            document.getElementById('quizanswera1').checked,
+            document.getElementById('quizanswera2').checked,
+            document.getElementById('quizanswera3').checked,
+        ],
+        // [
+        //     document.getElementById('quizanswerb1').checked,
+        //     document.getElementById('quizanswerb2').checked,
+        //     document.getElementById('quizanswerb3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizanswerc1').checked,
+        //     document.getElementById('quizanswerc2').checked,
+        //     document.getElementById('quizanswerc3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizanswerd1').checked,
+        //     document.getElementById('quizanswerd2').checked,
+        //     document.getElementById('quizanswerd3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizanswere1').checked,
+        //     document.getElementById('quizanswere2').checked,
+        //     document.getElementById('quizanswere3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizanswerf1').checked,
+        //     document.getElementById('quizanswerf2').checked,
+        //     document.getElementById('quizanswerf3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizanswerg1').checked,
+        //     document.getElementById('quizanswerg2').checked,
+        //     document.getElementById('quizanswerg3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizanswerh1').checked,
+        //     document.getElementById('quizanswerh2').checked,
+        //     document.getElementById('quizanswerh3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizansweri1').checked,
+        //     document.getElementById('quizansweri2').checked,
+        //     document.getElementById('quizansweri3').checked,
+        // ],
+        // [
+        //     document.getElementById('quizanswerj1').checked,
+        //     document.getElementById('quizanswerj2').checked,
+        //     document.getElementById('quizanswerj3').checked,
+        // ]
+    ];
+
+    if (answers[0].includes(true)){
+        if (answers[0][1])  {
+            document.getElementById('quizbox0').style = "border: solid 2px green";
+            document.getElementById('quizboxa2').style = "background-color: none";
+        } else if (!answers[0][1]) {
+            document.getElementById('quizbox0').style = "border: solid 2px red";
+            document.getElementById('quizboxa2').style = "background-color: green";
+        }
+    }
+
+    console.log(answers);
 }

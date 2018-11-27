@@ -33,65 +33,65 @@
 				<p>tá na hora de tu provar que é o bichão e mostrar que sabe tudo sobre avestruzes!</p>
 				<p>aqui vai um quiz maroto para testar seus conhecimentos, vamos lá:</p>
 				<form name="quizz" onsubmit="return false">
-					<div class="quizbox" id="quizbox0" onmouseover="boxHighlight(0)" onmouseout="boxUnhighlight(0)">
+					<div class="quizbox" id="quizbox0">
 						<p class="quizquestion">a. quantos tempo dura a incubação do ovo de avestruz?</p>
-							<label class="quizlabel"><input type="radio" name="a-incubacao" value="false">20 dias<br></label>
-							<label class="quizlabel"><input type="radio" name="a-incubacao" value="true">30 dias<br></label>
-							<label class="quizlabel"><input type="radio" name="a-incubacao" value="false">60 dias<br></label>
+							<label class="quizlabel" id="quizboxa1"><input type="radio" id="quizanswera1" name="a-incubacao">20 dias<br></label>
+							<label class="quizlabel" id="quizboxa2"><input type="radio" id="quizanswera2" name="a-incubacao">30 dias<br></label>
+							<label class="quizlabel" id="quizboxa3"><input type="radio" id="quizanswera3" name="a-incubacao">60 dias<br></label>
 					</div>
-					<div class="quizbox" id="quizbox1" onmouseover="boxHighlight(1)" onmouseout="boxUnhighlight(1)">
+					<div class="quizbox" id="quizbox1">
 						<p class="quizquestion">b. até quantos km/h uma avestruz correndo pode chegar?</p>
-							<label class="quizlabel"><input type="radio" name="b.corrida" value="false">30 km/h<br></label>
-							<label class="quizlabel"><input type="radio" name="b.corrida" value="false">60 km/h<br></label>
-							<label class="quizlabel"><input type="radio" name="b.corrida" value="true">70 km/h<br></label>
+							<label class="quizlabel"><input type="radio" value="false">30 km/h<br></label>
+							<label class="quizlabel"><input type="radio" value="false">60 km/h<br></label>
+							<label class="quizlabel"><input type="radio" value="true">70 km/h<br></label>
 					</div>
-					<div class="quizbox" id="quizbox2" onmouseover="boxHighlight(2)" onmouseout="boxUnhighlight(2)">
+					<div class="quizbox" id="quizbox2">
 						<p class="quizquestion">c. quantos estômagos tem um avestruz?</p>
-							<label class="quizlabel"><input type="radio" name="c.estomago" value="true">3 estômagos<br></label>
-							<label class="quizlabel"><input type="radio" name="c.estomago" value="false">4 estômagos<br></label>
-							<label class="quizlabel"><input type="radio" name="c.estomago" value="false">2 estômagos<br></label>
+							<label class="quizlabel"><input type="radio" value="true">3 estômagos<br></label>
+							<label class="quizlabel"><input type="radio" value="false">4 estômagos<br></label>
+							<label class="quizlabel"><input type="radio" value="false">2 estômagos<br></label>
 					</div>
-					<div class="quizbox" id="quizbox3" onmouseover="boxHighlight(3)" onmouseout="boxUnhighlight(3)">
+					<div class="quizbox" id="quizbox3">
 						<p class="quizquestion">d. qual a origem continental das avestruzes?</p>
-							<label class="quizlabel"><input type="radio" name="d.origem" value="true">áfrica<br></label>
-							<label class="quizlabel"><input type="radio" name="d.origem" value="false">austrália<br></label>
-							<label class="quizlabel"><input type="radio" name="d.origem" value="false">leste europeu<br></label>
+							<label class="quizlabel"><input type="radio" value="true">áfrica<br></label>
+							<label class="quizlabel"><input type="radio" value="false">austrália<br></label>
+							<label class="quizlabel"><input type="radio" value="false">leste europeu<br></label>
 					</div>
-					<div class="quizbox" id="quizbox4" onmouseover="boxHighlight(4)" onmouseout="boxUnhighlight(4)">
+					<div class="quizbox" id="quizbox4">
 						<p class="quizquestion">e. quantos quilos pode pesar um ovo de avestruz?</p>
-							<label class="quizlabel"><input type="radio" name="e.ovo" value="false">1kg<br></label>
-							<label class="quizlabel"><input type="radio" name="e.ovo" value="true">1,5kg<br></label>
-							<label class="quizlabel"><input type="radio" name="e.ovo" value="false">2kg<br></label>
+							<label class="quizlabel"><input type="radio" value="false">1kg<br></label>
+							<label class="quizlabel"><input type="radio" value="true">1,5kg<br></label>
+							<label class="quizlabel"><input type="radio" value="false">2kg<br></label>
 					</div>
-					<div class="quizbox" id="quizbox5" onmouseover="boxHighlight(5)" onmouseout="boxUnhighlight(5)">
+					<div class="quizbox" id="quizbox5">
 						<p class="quizquestion">f. quantos dentes tem uma avestruz?</p>
-							<label class="quizlabel"><input type="radio" name="f.dentes" value="false">30 dentes<br></label>
-							<label class="quizlabel"><input type="radio" name="f.dentes" value="false">80 dentes<br></label>
-							<label class="quizlabel"><input type="radio" name="f.dentes" value="true">nenhum dente<br></label>
+							<label class="quizlabel"><input type="radio" value="false">30 dentes<br></label>
+							<label class="quizlabel"><input type="radio" value="false">80 dentes<br></label>
+							<label class="quizlabel"><input type="radio" value="true">nenhum dente<br></label>
 					</div>
-					<div class="quizbox" id="quizbox6" onmouseover="boxHighlight(6)" onmouseout="boxUnhighlight(6)">
+					<div class="quizbox" id="quizbox6">
 						<p class="quizquestion">g. qual a altura média de uma avestruz?</p>
-							<label class="quizlabel"><input type="radio" name="g.altura" value="true">2,7 metros<br></label>
-							<label class="quizlabel"><input type="radio" name="g.altura" value="false">3 metros<br></label>
-							<label class="quizlabel"><input type="radio" name="g.altura" value="false">3,5 metros<br></label>
+							<label class="quizlabel"><input type="radio" value="true">2,7 metros<br></label>
+							<label class="quizlabel"><input type="radio" value="false">3 metros<br></label>
+							<label class="quizlabel"><input type="radio" value="false">3,5 metros<br></label>
 					</div>
-					<div class="quizbox" id="quizbox7" onmouseover="boxHighlight(7)" onmouseout="boxUnhighlight(7)">
+					<div class="quizbox" id="quizbox7">
 						<p class="quizquestion">h. qual o peso médio de uma avestruz?</p>
-							<label class="quizlabel"><input type="radio" name="h.peso" value="true">160kg<br></label>
-							<label class="quizlabel"><input type="radio" name="h.peso" value="false">200kg<br></label>
-							<label class="quizlabel"><input type="radio" name="h.peso" value="false">100kg<br></label>
+							<label class="quizlabel"><input type="radio" value="true">160kg<br></label>
+							<label class="quizlabel"><input type="radio" value="false">200kg<br></label>
+							<label class="quizlabel"><input type="radio" value="false">100kg<br></label>
 					</div>
-					<div class="quizbox" id="quizbox8" onmouseover="boxHighlight(8)" onmouseout="boxUnhighlight(8)">
+					<div class="quizbox" id="quizbox8">
 						<p class="quizquestion">i. qual o melhor jeito de escapar de um ataque de avestruz?</p>
-							<label class="quizlabel"><input type="radio" name="i.ataque" value="false">correr da avestruz<br></label>
-							<label class="quizlabel"><input type="radio" name="i.ataque" value="false">brigar com a avestruz<br></label>
-							<label class="quizlabel"><input type="radio" name="i.ataque" value="true">deitar no chão<br></label>
+							<label class="quizlabel"><input type="radio" value="false">correr da avestruz<br></label>
+							<label class="quizlabel"><input type="radio" value="false">brigar com a avestruz<br></label>
+							<label class="quizlabel"><input type="radio" value="true">deitar no chão<br></label>
 					</div>
-					<div class="quizbox" id="quizbox9" onmouseover="boxHighlight(9)" onmouseout="boxUnhighlight(9)">
+					<div class="quizbox" id="quizbox9">
 						<p class="quizquestion">j. uma avestruz e um carro pica, os dois a 80km/h, você acha que eles ficam um do lado do outro?</p>
-							<label class="quizlabel"><input type="radio" name="j.celta" value="false">sim! 80km é 80km, arrombado<br></label>
-							<label class="quizlabel"><input type="radio" name="j.celta" value="true">creio que não<br></label>
-							<label class="quizlabel"><input type="radio" name="j.celta" value="false">só fica se for um celta 2012<br></label>
+							<label class="quizlabel"><input type="radio" value="false">sim! 80km é 80km, arrombado<br></label>
+							<label class="quizlabel"><input type="radio" value="true">creio que não<br></label>
+							<label class="quizlabel"><input type="radio" value="false">só fica se for um celta 2012<br></label>
 					</div>
 					<input type="submit" class="quizquestion" value="VER RESULTADOS!" onclick="quizEntries()">
 				</form>
