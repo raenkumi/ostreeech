@@ -82,6 +82,11 @@ const quizEntries = () => {
         // ]
     ];
 
+    for (i = 0; i < 30; i++) {
+        for (j = 0; j < 3; j++) {
+            answers[i][j] = document.getElementById('quizanswer[i][j]').checked;
+        }
+    }
     if (answers[0].includes(true)){
         if (answers[0][1])  {
             document.getElementById('quizbox0').style = "border: solid 2px green";
