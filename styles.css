@@ -154,7 +154,8 @@ h2 {
 }
 
 .quizbox {
-	padding: 1px 0px 15px 15px;
+	padding: 1px 0px 10px 15px;
+	margin: 10px;
 }
 
 .quizquestion {
